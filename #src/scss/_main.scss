@@ -1,0 +1,234 @@
+﻿.main {
+    grid-column: 2 / 3;
+}
+
+.main__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+    color: $titleGold;
+}
+
+.main__img {
+    position: relative;
+    left: 90px;
+    top: 0;
+}
+
+.main__text {
+    margin: 0 39px 0 50px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: $textMain;
+}
+
+.span-text {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 300;
+    color: $linkHover;
+    &-about {
+        font-size: 36px;
+        color: $linkHover;
+    }
+}
+
+.main__btn {
+    padding: 37px 0 0 0;
+    text-align: center;
+}
+
+.button {
+    width: 270px;
+    height: 53px;
+    background-color: $btnGold;
+    color: $trueWhite;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    position: relative;
+    
+    &:hover,
+    &:focus {
+        @include smooth;
+        cursor: pointer;
+        background-color: $linkHover;
+    }
+}
+
+.about {
+    padding: 99px 0 82px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__title-subtitle__item {
+    font-size: 24px;
+}
+
+.about__title-title__item {
+    font-size: 36px;
+}
+
+.about__title-text__item {
+    font-size: 16px;
+    color: $textMain;
+}
+
+.btn-about-autor {
+    margin: 20px 0 0 0;
+}
+
+//Блок "Мои научные и практические разработки "
+
+.attainment {
+    margin: 0 0 30px 0;
+}
+
+.attainment__title {
+    color: $black;
+    text-align: center;
+}
+
+.attainment__block {
+    display: grid;
+    grid-template: 1fr / 1fr 570px 1fr;
+}
+.attainment__block__items {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.attainment__block__item {
+    border: 1px solid #cccccc;
+    display: grid;
+    grid-template-rows: 123px 77px 90px;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.attainmemt__block-item__img {
+    padding: 30px 0 0 0;
+}
+
+.attainmemt__block-item__title {
+    font-size: 22px;
+    font-weight: 600;
+    color: $black;
+}
+
+.attainmemt__block-item__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: $textMain;
+}
+
+.span__subtitle {
+    color: $linkHover;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+// Блок "Мои профессиональные принципы
+
+.principles {
+    margin: 0 0 30px 0;
+}
+
+.principles__title {
+    color: $black;
+    text-align: center;
+}
+
+.principles__block {
+    display: grid;
+    grid-template: 1fr / 1fr 570px 1fr;
+}
+.principles__block__items {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.principles__block__item {
+    border: 1px solid #cccccc;
+    display: grid;
+    grid-template-rows: 111px 81px 1fr;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.principles__block-item__img {
+    padding: 30px 0 0 0;
+}
+
+.principles__block-item__title {
+    font-size: 26px;
+    font-weight: 600;
+    color: $black;
+}
+
+.principles__block-item__subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: $textMain;
+    margin: 0 0 59px;
+}
+
+.prefooter {
+    background-image: url(../img/preFooter-bg.png);
+    background-repeat: no-repeat;
+    height: 373px;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.prefooter__list {
+    list-style-type: none;
+    align-items: center;
+
+    display: flex;
+    position: relative;
+    top: 110px;
+}
+
+.prefooter__list__item {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 50px 0 0;
+}
+
+.item-1 {
+    text-align: right;
+}
+
+.item-2 {
+    font-size: 36px;
+    color: $linkHover;
+    text-align: center;
+    border: 1px solid $trueWhite;
+    border-radius: 100%;
+    width: 162px;
+    height: 162px;
+    justify-content: center;
+    background-color: $trueWhite;
+    &-p {
+    letter-spacing: -3px;
+    }
+}
+
+.item-3 {
+    text-align: left;
+}
