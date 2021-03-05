@@ -1,0 +1,19 @@
+﻿.footer {
+    grid-column: 2 / 3;
+    background-color: #13141D;
+}
+
+.footer__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__img {
+    margin: 0 15px 0 0;
+}
+
+.footer__copy-text {
+    display: flex;
+    color: $footerCopy;
+}
