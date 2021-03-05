@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <title></title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__nav nav">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="img/header__logo.svg" alt="header__logo-img">
+                    <li class="site-nav__item">
+                        <a class="site-nav__link" href="#">Психология достижений</a>
+                    </li>
+                </div>
+                <ul class="nav__site-nav site-nav">
+                    <li class="site-nav__item">
+                        <a class="site-nav__link" href="#">Статьи</a>
+                    </li>
+                    <li class="site-nav__item">
+                        <a class="site-nav__link" href="#">Бесплатно</a>
+                    </li>
+                    <li class="site-nav__item">
+                        <a class="site-nav__link" href="#">Курсы</a>
+                    </li>
+                    <li class="site-nav__item">
+                        <a class="site-nav__link" href="#">Личный кабинет</a>
+                    </li>
+                </ul>
+                <button class="nav__burger-btn" type="button" onclick="toggleBurgerBtn(this);">
+                    <span class="nav__burger-lines"></span>
+                </button>
+            </nav>
+        </header>
+        <hr class="hr">
+        <main class="main">
+            <h1 class="main__title">психология достижений</h1>
+            <div class="main__img">
+                <img src="img/main__img.svg" alt="main__img">
+            </div>
+            <div class="main__text">
+                <p class="text">
+                    Если вам трудно жить «как все»,  трудно притворяться, что все хорошо, 
+                    потому что <br>хорошо только внешне, а внутри хоть волком вой от того, 
+                    что «жизнь проходит, а я <br>ничего не делаю», от того, что делать 
+                    страшно – а вдруг не получится, «мне, ведь, надо <br>кормить детей, 
+                    оплачивать счета», но еще страшнее не делать – «ведь жизнь-то идет», 
+                    и <br>второго дубля не будет, <br><span class="span-text">вам пора.</span> 
+                    <br>Пора перестать принижать себя перед собой и другими, пора признать 
+                    свою силу и свои <br>способности, пора получать за них адекватные деньги, 
+                    пора показать пример своим <br>детям, пора перестать ждать и начать действовать.
+                </p>
+            </div>
+            <div class="main__btn">
+                <button class="button">начать действовать</button>
+            </div>
+            <div class="about">
+                <div class="about__img">
+                    <img src="img/about-img.svg" alt="about-img">
+                </div>
+                <div class="about__title">
+                    <h2 class="about__title-subtitle">
+                        <p class="about__title-subtitle__item">
+                            Позвольте представиться
+                        </p>
+                    </h2>
+                    <h1 class="about__title-title">
+                        <p class="about__title-title__item">
+                            Меня зовут <span class="span-text-about">Елена Борисова</span>
+                        </p>
+                    </h1>
+                    <h3 class="about__title-text">
+                        <p class="about__title-text__item">
+                            Я психолог развития. Специализируюсь на <br>
+                            развитии волевых качеств личности:<br> 
+                        инициативности, целеустремленности, <br>
+                        решительности, ответственности,<br> 
+                        настойчивости, самостоятельности, а также <br>
+                        самооценки и способности<br>
+                        к творческому планированию. Помогаю <br>
+                        людям познать свою силу, натренировать ее<br>
+                        и применять для достижения<br>
+                        своих целей, делая себя и свою жизнь богаче <br>
+                        с каждой новой победой и приобретением.
+                        </p>
+                    </h3>
+                    <button class="button btn-about-autor">подробнее об авторе</button>
+                </div>
+            </div>
+            <div class="attainmemt">
+                <h1 class="attainment__title">
+                        Мои научные<br>и практические <span class="span-text-about">разработки</span>
+                </h1>
+                <div class="attainment__block">
+                    <div class="attainment__block__items">
+                        <div class="attainment__block__item">
+                            <img class="attainmemt__block-item__img" src="img/MG-1.png" alt="">
+                            <div class="attainmemt__block-item__title">
+                                Собственная концепция<br>развития психики
+                            </div>
+                            <div class="attainmemt__block-item__subtitle">
+                                Реализована в <br><a href="#" class="span__subtitle">Курсе в новую жизнь</a ><br>и частично в других курсах
+                            </div>
+                        </div>
+                        <div class="attainment__block__item">
+                            <img class="attainmemt__block-item__img" src="img/MG-2.png" alt="">
+                            <div class="attainmemt__block-item__title">
+                                Собственная возрастная<br>периодизация
+                            </div>
+                            <div class="attainmemt__block-item__subtitle">
+                                Реализована в<br><a class="span__subtitle">Курсе в новую жизнь</a><br>и частично в других курсах
+                            </div>
+                        </div>
+                        <div class="attainment__block__item">
+                            <img class="attainmemt__block-item__img" src="img/MG-3.png" alt="">
+                            <div class="attainmemt__block-item__title">
+                                Модель интеллекта<br>по С. Л. Рубинштейну
+                            </div>
+                            <div class="attainmemt__block-item__subtitle">
+                                Реализована в курсе <br><a href="#" class="span__subtitle">Раннее развитие интеллекта</a ><br>и <a href="#" class="span__subtitle">Курсе в новую жизнь</a >
+                            </div>
+                        </div>
+                        <div class="attainment__block__item">
+                            <img class="attainmemt__block-item__img" src="img/MG-4.png" alt="">
+                            <div class="attainmemt__block-item__title">
+                                Результаты<br>многолетней работы
+                            </div>
+                            <div class="attainmemt__block-item__subtitle">
+                                Подтвержденные<br><a href="#" class="span__subtitle">научными экспериментами</a ><br>и <a href="#" class="span__subtitle">отзывами благодарных клиентов</a >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slider start -->
+            <div class="principles">
+                <h1 class="principles__title">
+                        Мои научные<br>и практические <span class="span-text-about">разработки</span>
+                </h1>
+                <div class="principles__block">
+                    <div class="principles__block__items">
+                        <div class="principles__block__item">
+                            <img class="principles__block-item__img" src="img/Principles-1.png" alt="">
+                            <div class="principles__block-item__title">
+                                Принцип<br>реальности
+                            </div>
+                            <div class="principles__block-item__subtitle">
+                                Я категорически против<br>
+                                эзотерических иллюзий.<br>
+                                Чем прозрачнее и ближе<br>
+                                видение человека к<br>
+                                реальности - тем больше<br>
+                                целей он достигает, больше<br>
+                                развивается в этом процессе<br>
+                                и больше получает от жизни.<br>
+                                В то время, как полагание на<br>
+                                силы внешние создает<br>
+                                серьезные препятствия<br>
+                                к развитию и благосостоянию.
+                            </div>
+                        </div>
+                        <div class="principles__block__item">
+                            <img class="principles__block-item__img" src="img/Principles-2.png" alt="">
+                            <div class="principles__block-item__title">
+                                Принцип<br>развития
+                            </div>
+                            <div class="principles__block-item__subtitle">
+                                Я не работаю с травмами,<br>
+                                неврозами, психозами,<br>
+                                прочими патологиями и пограничными состояниями.<br>
+                                Для этого есть другие<br>
+                                специалисты, пожалуйста,<br>
+                                обратитесь к ним. Мне<br>
+                                больше нравится<br>
+                                способствовать росту,<br>
+                                развитию, раскрывать<br>
+                                таланты и наблюдать<br>
+                                сверхнормативные результаты.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- slider end -->
+            <div class="prefooter">
+                <ul class="prefooter__list">
+                    <li class="prefooter__list__item item-1">Изменить будущее<br>своих детей</li>
+                    <li class="prefooter__list__item item-2"><p class="item-2-p">С чего<br>начать?</p></li>
+                    <li class="prefooter__list__item item-3">Изменить<br>свою жизнь</li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__copy">
+                <div class="footer__img">
+                    <img src="img/footer-img.png" alt="">
+                </div>
+                <div class="footer__copy-text">
+                    <p class="copy__date">2006 - 2020 ©</p>
+                    <p class="copy__name">ИП Борисова Елена Ивановна,&ensp;</p>
+                    <p class="copy__ogrn">ОГРНИП 318502700067013</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/burger.js"></script>
+</body>
+</html>
