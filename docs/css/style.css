@@ -60,6 +60,93 @@ input:focus {
   outline: none;
 }
 
+.main-about {
+  margin: 61px 38px 89px 49px;
+}
+
+.breadCrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.breadCrumbs__square {
+  width: 16px;
+  height: 16px;
+  background-color: #C9B493;
+  margin: 0 13px 0 0;
+}
+
+.breadCrumbs__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadCrumbs__main-link {
+  color: #727379;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0 4px 0 0;
+}
+
+.breadCrumbs__main-link:hover,
+.breadCrumbs__main-link:focus {
+  color: #000000;
+}
+
+.breadCrumbs__slash {
+  margin: 0 4px 0 0;
+}
+
+.breadCrumbs__about-link {
+  color: #272A41;
+  margin: 0;
+}
+
+.breadCrumbs__about-link:hover {
+  cursor: default;
+}
+
+.author-name {
+  left: 0;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.main__description {
+  text-align: left;
+}
+
+.main__description-title {
+  color: #272A41;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 31.25px;
+}
+
+.main__description-subtitle {
+  color: #727379;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.main__description-subtitle__span {
+  color: #BFA883;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25.5px;
+}
+
+.biography {
+  margin: 0 0 89px 0;
+}
+
 .footer {
   grid-column: 2 / 3;
   background-color: #13141D;
@@ -479,6 +566,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
