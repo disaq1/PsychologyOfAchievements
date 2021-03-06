@@ -1,0 +1,76 @@
+﻿.main-about {
+    margin: 61px 38px 89px 49px;
+}
+
+.breadCrumbs {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.breadCrumbs__square {
+    width: 16px;
+    height: 16px;
+    background-color: $btnGold;
+    margin: 0 13px 0 0;
+}
+
+.breadCrumbs__links {
+    display: flex;
+}
+
+.breadCrumbs__main-link {
+    color: $textMain;
+    @include smooth;
+    &:hover,
+    &:focus {
+        color: $trueBlack;
+    }
+    margin: 0 4px 0 0;
+}
+
+.breadCrumbs__slash {
+    margin: 0 4px 0 0;
+}
+
+.breadCrumbs__about-link {
+    color: $black;
+    margin: 0;
+    &:hover {
+        cursor: default;
+    }
+}
+
+.author-name {
+    left: 0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.main__description {
+    text-align: left;
+}
+
+.main__description-title {
+    color: $black;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31.25px;
+}
+
+.main__description-subtitle {
+    color: $textMain;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.main__description-subtitle__span {
+    color: $linkHover;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25.5px;
+}
+
+.biography {
+    margin: 0 0 89px 0;
+}
