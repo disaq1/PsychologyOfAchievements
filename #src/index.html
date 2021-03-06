@@ -32,8 +32,38 @@
                 </p>
             </div>
             <div class="main__btn">
-                <button class="button">начать действовать</button>
+                <button id="myBtn" class="button">начать действовать</button>
             </div>
+            <!-- popup -->
+            <div id="mypopup" class="popup">
+                <span class="close">&times;</span>
+                <div class="popup-content">
+                    <div class="popup__header">
+                        <h1 class="popup__title">Изменить<br>будущее <span class="popup__title__span">своих детей</span></h1>
+                    </div>
+                    <div class="popup-body">
+                        <div class="popup-body__text">
+                            Заполните форму и получите 10 бесплатных занятий курса<br>
+                            <span class="popup-body__span">«Как воспитать волевые качества у ребенка в условиях<br>
+                            дефицита времени и сил»</span>, чтобы заложить сильный, крепкий,<br>
+                            надежный фундамент его будущего успеха.
+                        </div>
+                        <!-- Форма для заполения заявки -->
+                        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+                            <div class="form__inputs">
+                                <input class="form-input" type="text" name="user_name" placeholder="Введите ваше имя">
+                                <input class="form-input" type="email" name="user_email" placeholder="Введите ваш e-mail">
+                            </div>
+                            <p class="p-eula">
+                                <input id="eula" type="checkbox" checked><label for="eula">Политика конфиденциальности</label>
+                            </p>
+                        </form>
+                        <!-- Форма для заполнения заявки -->
+                        <button class="button" type="submit"><span class="form-btn_span">получить тест бесплатно</span></button>
+                    </div>
+                </div>
+            </div>
+            <!-- popup -->
             <div class="about">
                 <div class="about__img">
                     <img src="img/about-img.svg" alt="about-img">
@@ -173,5 +203,6 @@
         @@include('_footer.html')
     </div>
     <script src="js/burger.js"></script>
+    <script src="js/popup.js"></script>
 </body>
 </html>
