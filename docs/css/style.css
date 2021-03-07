@@ -72,7 +72,7 @@ input:focus {
 
 .popup--opened {
   visibility: visible;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -128,6 +128,8 @@ input:focus {
 }
 
 .form__input {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 278px;
   height: 40px;
   border: 1px dotted #cccccc;
@@ -137,6 +139,21 @@ input:focus {
 
 .form__input:last-child {
   margin: 0;
+}
+
+.form-btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: -1px;
+}
+
+.form__eula {
+  margin: 8px -5px 10px 0;
+  letter-spacing: 0.9px;
+}
+
+#eula {
+  margin: 0 5px 0 0;
 }
 
 .main-about {
