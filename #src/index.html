@@ -32,8 +32,36 @@
                 </p>
             </div>
             <div class="main__btn">
-                <button class="button">начать действовать</button>
+                <button id="btnPopup" class="button">начать действовать</button>
             </div>
+            <!-- popup start-->
+            <div id="popup" class="popup">
+                <span class="close"><img src="img/close-btn.png" alt=""></span>
+                <div class="popup__content">
+                        <h1 class="popup__title">
+                            Изменить<br>будущее <span class="popup__title__span">своих детей</span>
+                        </h1>
+                        <p class="popup__subtitle">
+                            Заполните форму и получите 10 бесплатных занятий курса<br>
+                            <span class="popup__subtitle__span">«Как воспитать волевые качества у ребенка в условиях<br>
+                            дефицита времени и сил»</span>, чтобы заложить сильный, крепкий,<br>
+                            надежный фундамент его будущего успеха.
+                        </p>
+                    <div class="popup__form">
+                        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+                            <div class="form__inputs">
+                                <input class="form__input" type="text" name="user_name" placeholder="Введите ваше имя">
+                                <input class="form__input" type="email" name="user_email" placeholder="Введите ваш e-mail">
+                            </div>
+                            <p class="form__eula">
+                                <input id="eula" type="checkbox"><label for="eula">Политика конфиденциальности</label>
+                            </p>
+                        </form>
+                        <button id="btnPopup" class="button form-btn">получить тест бесплатно</button>
+                    </div>
+                </div>
+            </div>
+            <!-- popup end-->
             <div class="about">
                 <div class="about__img">
                     <img src="img/about-img.svg" alt="about-img">
@@ -173,5 +201,6 @@
         @@include('_footer.html')
     </div>
     <script src="js/burger.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
