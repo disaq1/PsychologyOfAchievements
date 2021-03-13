@@ -60,6 +60,79 @@ input:focus {
   outline: none;
 }
 
+.consultations__inputs {
+  margin: 32px 0 0 0;
+}
+
+.consultations__input {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  color: #272A41;
+  border: none;
+  border-bottom: 1px dotted #cccccc;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.consultations__input:hover {
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.consultations__checkboxs {
+  margin: 0 0 26px 0;
+}
+
+.eula {
+  margin: 25px 0 47px 0;
+}
+
+.article__text {
+  color: #272A41;
+}
+
+.err__pretitle {
+  margin: 120px 38px 78px 49px;
+  color: #727379;
+}
+
+.err__title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.err__why {
+  margin: 25px 38px 46px 49px;
+  color: #727379;
+}
+
+.err__links__items {
+  display: grid;
+  grid-template-columns: repeat(4, 135px);
+  grid-gap: 15px;
+  margin: 0 93px 104px 89px;
+}
+
+.err__link__items {
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+.err__link__item {
+  margin: 18px auto 21px;
+}
+
+.err__link__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #272A41;
+  margin: 12px 0 0 0;
+  letter-spacing: -2px;
+}
+
 .popup {
   text-align: center;
   top: 0;
@@ -77,6 +150,10 @@ input:focus {
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.lock {
+  overflow: hidden;
 }
 
 .close {
@@ -651,6 +728,40 @@ input:focus {
           transform: scaleX(0);
 }
 
+.other-item {
+  position: relative;
+}
+
+.other-item:hover {
+  cursor: pointer;
+}
+
+.other-item:hover .nav__sub-menu {
+  visibility: visible;
+}
+
+.nav__sub-menu {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px 0 0 5px;
+  padding: 0 0 0 5px;
+  width: 130px;
+  position: absolute;
+  top: 20px;
+  left: -10px;
+  visibility: hidden;
+  background-color: #ffffff;
+}
+
+.site-nav__items {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 0 10px 0;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -667,6 +778,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 @media screen and (max-width: 768px) {
