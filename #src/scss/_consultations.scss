@@ -1,0 +1,25 @@
+﻿.consultations__inputs {
+    margin: 32px 0 0 0;
+}
+
+.consultations__input {
+    @include smooth;
+    width: 100%;
+    color: $black;
+    border: none;
+    border-bottom: 1px dotted #cccccc;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.consultations__input:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+}
+
+.consultations__checkboxs {
+    margin: 0 0 26px 0;
+}
+
+.eula {
+    margin: 25px 0 47px 0;
+}
