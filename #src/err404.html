@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Lucky page (error Document 404)</title>
+</head>
+<body>
+    <div class="wrapper">
+        @@include('_header.html')
+        <main class="main">
+            <h2 class="err__pretitle">
+                <p class="text">
+                    Вы попали на эту страницу, потому что страницы, которую вы ищите, либо не<br>
+                    существует, либо ссылка в адресной строке написана с ошибкой.
+                </p>
+            </h2>
+            <h1 class="err__title">
+                Счастливая страница
+            </h1>
+            <h2 class="err__why">
+                <p class="text">
+                    Почему счастливая? А потому что в современном мире очень редко выпадает<br>
+                    возможность остановиться и подумать – а куда вы идете? что ищите?<br>
+                    <br>
+                    Если вы ищите пути самореализации, хотите, но боитесь начать свое дело, вам <a class="span__subtitle" href="index.html">сюда.</a><br>
+                    А если информацию по грамотному воспитанию детей - <a class="span__subtitle" href="#">сюда.</a><br>
+                    <br>
+                    Или воспользуйтесь разделами сайта:
+                </p>
+            </h2>
+            <div class="err__links__items">
+                <a href="articles.html">
+                    <div class="err__link__items">
+                        <div class="err__link__item">
+                            <img class="err__link__img" src="img/articles.png" alt="">
+                            <div class="err__link__title">
+                                Статьи
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="about.html">
+                    <div class="err__link__items">
+                        <div class="err__link__item">
+                            <img class="err__link__img" src="img/about__author-icon.png" alt="">
+                            <div class="err__link__title">
+                                Об авторе
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="err__link__items">
+                        <div class="err__link__item">
+                            <img class="err__link__img" src="img/frees-icon.png" alt="">
+                            <div class="err__link__title">
+                                Бесплатно
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="err__link__items">
+                        <div class="err__link__item">
+                            <img class="err__link__img" src="img/courses-icon.png" alt="">
+                            <div class="err__link__title">
+                                Курсы
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </main>
+        @@include('_footer.html')
+    </div>
+</body>
+</html>
