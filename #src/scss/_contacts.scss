@@ -1,0 +1,18 @@
+﻿.contacts__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__links__items {
+    display: flex;
+    padding: 0;
+}
+
+.contacts__links__item {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #900;
+    border-radius: 100%;
+    margin: 0 15px 0 0;
+}
