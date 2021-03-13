@@ -60,6 +60,31 @@ input:focus {
   outline: none;
 }
 
+.contacts__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts__links__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+
+.contacts__links__item {
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #900;
+  border-radius: 100%;
+  margin: 0 15px 0 0;
+}
+
 .consultations__inputs {
   margin: 32px 0 0 0;
 }
@@ -216,6 +241,14 @@ input:focus {
 
 .form__input:last-child {
   margin: 0;
+}
+
+.form__input:hover {
+  -webkit-box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+          box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .form-btn {
