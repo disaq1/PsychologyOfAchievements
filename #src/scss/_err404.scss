@@ -1,0 +1,40 @@
+﻿.err__pretitle {
+    margin: 120px 38px 78px 49px;
+    color: $textMain;
+}
+
+.err__title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.err__why {
+    margin: 25px 38px 46px 49px;
+    color: $textMain;
+}
+
+.err__links__items {
+    display: grid;
+    grid-template-columns: repeat(4, 135px);
+    grid-gap: 15px;
+    margin: 0 93px 104px 89px;
+
+}
+
+.err__link__items {
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.err__link__item {
+    margin: 18px auto 21px;
+}
+
+.err__link__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: $black;
+    margin: 12px 0 0 0;
+    letter-spacing: -2px;
+}
