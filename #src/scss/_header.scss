@@ -105,3 +105,33 @@
 .nav__burger-btn--opened .nav__burger-lines{
     transform: scaleX(0);
 }
+
+.other-item {
+    position: relative;
+}
+
+.other-item:hover {
+    cursor: pointer;
+}
+
+.other-item:hover .nav__sub-menu {
+    visibility: visible;
+}
+
+.nav__sub-menu {
+    @include smooth;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px 0 0 5px;
+    padding: 0 0 0 5px;
+    width: 130px;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    visibility: hidden;
+    background-color: $trueWhite;
+}
+
+.site-nav__items {
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+}
