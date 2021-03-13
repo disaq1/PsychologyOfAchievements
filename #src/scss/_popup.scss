@@ -73,6 +73,11 @@
     }
 }
 
+.form__input:hover {
+    box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+    @include smooth;
+}
+
 .form-btn {
     box-sizing: border-box;
     letter-spacing: -1px;
