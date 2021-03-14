@@ -15,4 +15,57 @@
     border: 1px solid #900;
     border-radius: 100%;
     margin: 0 15px 0 0;
+    @include smooth;
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 10px rgba(131, 131, 131, 0.473);
+    }
+}
+
+.form {
+    background-color: #EFF0F2;
+    width: 334px;
+    height: 508px;
+    text-align: center;
+    align-items: center;
+}
+
+.contacts__input {
+    @include smooth;
+    width: 100%;
+    color: $black;
+    border: none;
+    border-bottom: 1px dotted #cccccc;
+    background-color: #EFF0F2;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0 0 15px 0;
+    width: 268px;
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+        background-color: #fff;
+    }
+}
+
+#contacts__textarea {
+    background: #EFF0F2;
+    margin: 15px 0 30px 0;
+    @include smooth;
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+        background-color: #fff;
+    }
+}
+
+.eula__contacts {
+    margin: 20px 33px!important;
+    display: flex;
+    align-items: baseline;
+}
+
+.p__eula__contacts {
+    text-align: left;
+    font-size: 12.5px;
 }
