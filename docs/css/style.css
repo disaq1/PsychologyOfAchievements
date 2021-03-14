@@ -83,6 +83,77 @@ input:focus {
   border: 1px solid #900;
   border-radius: 100%;
   margin: 0 15px 0 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.contacts__links__item:hover,
+.contacts__links__item:focus {
+  -webkit-box-shadow: 0 0 10px rgba(131, 131, 131, 0.473);
+          box-shadow: 0 0 10px rgba(131, 131, 131, 0.473);
+}
+
+.form {
+  background-color: #EFF0F2;
+  width: 334px;
+  height: 508px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts__input {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  color: #272A41;
+  border: none;
+  border-bottom: 1px dotted #cccccc;
+  background-color: #EFF0F2;
+  font-size: 15px;
+  padding: 20px;
+  margin: 0 0 15px 0;
+  width: 268px;
+}
+
+.contacts__input:hover,
+.contacts__input:focus {
+  -webkit-box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+          box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+  background-color: #fff;
+}
+
+#contacts__textarea {
+  background: #EFF0F2;
+  margin: 15px 0 30px 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#contacts__textarea:hover,
+#contacts__textarea:focus {
+  -webkit-box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+          box-shadow: 0 0 30px rgba(180, 180, 180, 0.4);
+  background-color: #fff;
+}
+
+.eula__contacts {
+  margin: 20px 33px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.p__eula__contacts {
+  text-align: left;
+  font-size: 12.5px;
 }
 
 .consultations__inputs {
@@ -187,7 +258,8 @@ input:focus {
   left: 400px;
 }
 
-.close:hover {
+.close:hover,
+.close:focus {
   cursor: pointer;
 }
 
@@ -314,7 +386,8 @@ input:focus {
   margin: 0;
 }
 
-.breadCrumbs__about-link:hover {
+.breadCrumbs__about-link:hover,
+.breadCrumbs__about-link:focus {
   cursor: default;
 }
 
@@ -340,6 +413,10 @@ input:focus {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
+}
+
+.about__title-subtitle {
+  letter-spacing: -1px;
 }
 
 .main__description-subtitle__span {
